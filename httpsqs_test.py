@@ -1,5 +1,5 @@
 import httpsqs
-#Verion 1.0
+#Verion 1.1
 #Author wendal(wendal1985@gmail.com)
 #If you find a bug, pls mail me
 
