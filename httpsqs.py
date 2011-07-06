@@ -1,7 +1,7 @@
-#Verion 1.0
+#Verion 1.1
 #Author wendal(wendal1985@gmail.com)
 #If you find a bug, pls mail me
-#this module is design for Python 2.7
+#this module is design for Python 2.7, can convert by 2to3
 
 import httplib,urllib
 
@@ -25,6 +25,7 @@ SYNCTIME_CANCEL = 'HTTPSQS_SYNCTIME_CANCEL'
 NONE = ''
 
 class Httpsqs(object):
+
     def __init__(self,host,port=1218):
         self.host = host
         self.port = port
